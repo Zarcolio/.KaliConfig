@@ -3,7 +3,7 @@ echo -e "\e[32m"
 echo "*** Adding stuff to .bashrc ***"
 echo -e "\e[0m"
 echo "">> ~/.bashrc
-echo "alias ls='ls -la --color'">> ~/.bashrc
+echo "alias ls='ls -laX --color'">> ~/.bashrc
 echo "export GOPATH=$HOME/go">> ~/.bashrc
 echo "export PATH=$PATH:$(go env GOPATH)/bin:/home/zarco/.local/bin">> ~/.bashrc
 source ~/.bashrc
