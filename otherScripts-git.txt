@@ -1,0 +1,6 @@
+https://github.com/s0md3v/XSStrike
+https://github.com/s0md3v/Corsy
+https://github.com/CaptainFreak/VHostScan
+https://github.com/drwetter/testssl.sh
+https://github.com/danielmiessler/SecLists
+https://github.com/fuzzdb-project/fuzzdb

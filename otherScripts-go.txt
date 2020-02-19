@@ -1,0 +1,2 @@
+github.com/projectdiscovery/subfinder/cmd/subfinder
+github.com/koenrh/s3enum
