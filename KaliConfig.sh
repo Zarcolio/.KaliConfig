@@ -15,7 +15,7 @@ echo -e "\e[0m"
 while IFS=, read -r program; do
 	echo -n "Installing $program"
 	sudo apt install -y $program
-done < ~/apt.txt
+done < ~/aptInstalls.txt
 
 echo -e "\e[32m"
 echo "*** Creating directories ***"
