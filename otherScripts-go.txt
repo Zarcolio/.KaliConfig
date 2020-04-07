@@ -1,2 +1,7 @@
 github.com/projectdiscovery/subfinder/cmd/subfinder
 github.com/koenrh/s3enum
+github.com/michenriksen/aquatone
+github.com/mvdan/xurls
+github.com/root4loot/rescope
+github.com/haccer/subjack
+github.com/mhmdiaa/second-order

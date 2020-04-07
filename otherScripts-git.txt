@@ -4,3 +4,5 @@ https://github.com/CaptainFreak/VHostScan
 https://github.com/drwetter/testssl.sh
 https://github.com/danielmiessler/SecLists
 https://github.com/fuzzdb-project/fuzzdb
+https://github.com/fleetcaptain/Turbolist3r
+https://github.com/TheKingOfDuck/burpFakeIP

@@ -1,0 +1,3 @@
+npm i -g wappalyzer
+pip3 install random_user_agent
+pip install dirhunt

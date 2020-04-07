@@ -15,7 +15,7 @@ echo -e "\e[0m"
 while IFS=, read -r program; do
 	echo -n "Installing $program"
 	sudo apt install -y $program
-done < ~/aptInstalls.txt
+done < ~/KaliConfig/aptInstalls.txt
 
 echo -e "\e[32m"
 echo "*** Creating directories ***"
@@ -34,8 +34,9 @@ echo -e "\e[0m"
 while IFS=, read -r program; do
 	echo -n "Installing $program"
 	git clone $program
-done < ~/myScripts-git.txt
+done < ~/.KaliConfig/myScripts-git.txt
 
+cd ~/.scripts/otherScripts
 echo ""
 echo -e "\e[32m"
 echo "*** Configuring other scripts with git ***"
@@ -43,7 +44,7 @@ echo -e "\e[0m"
 while IFS=, read -r program; do
 	echo -n "Installing $program"
 	git clone $program
-done < ~/otherScripts-git.txt
+done < ~/.KaliConfig/otherScripts-git.txt
 
 echo ""
 echo -e "\e[32m"
@@ -53,7 +54,7 @@ while IFS=, read -r program; do
 	echo -n "Installing $program"
 	go get -v $program
 	echo "go get -v $program"
-done < ~/otherScripts-go.txt
+done < ~/.KaliConfig/otherScripts-go.txt
 
 cd ~/.scripts/other
 echo ""
