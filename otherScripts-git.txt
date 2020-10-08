@@ -6,3 +6,5 @@ https://github.com/danielmiessler/SecLists
 https://github.com/fuzzdb-project/fuzzdb
 https://github.com/fleetcaptain/Turbolist3r
 https://github.com/TheKingOfDuck/burpFakeIP
+https://github.com/michaelben6/SSRFire
+https://github.com/Ekultek/WhatWaf

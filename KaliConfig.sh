@@ -5,7 +5,7 @@ echo -e "\e[0m"
 echo "">> ~/.bashrc
 echo "alias ls='ls -laX --color --group-directories-first'">> ~/.bashrc
 echo "export GOPATH=$HOME/go">> ~/.bashrc
-echo "export PATH=$PATH:$(go env GOPATH)/bin:/home/zarco/.local/bin:/home/zarco/go/bin:">> ~/.bashrc
+echo "export PATH=$PATH:$(go env GOPATH)/bin:/home/zarco/.local/bin">> ~/.bashrc
 source ~/.bashrc
 
 echo ""
